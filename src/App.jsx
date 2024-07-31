@@ -7,8 +7,11 @@ import Login from './pages/Login'
 import Registration from './pages/Registration'
 import Profile from './pages/Profile'
 import ErrorPage from './pages/ErrorPage'
+import { initData } from './dataApi/dataApi'
+
 
 function App() {
+  initData();
  
 
   return (
