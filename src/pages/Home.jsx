@@ -98,8 +98,8 @@ export default function Home() {
 
                        </div>
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3></h3>
+                            <p></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -108,8 +108,8 @@ export default function Home() {
 
                        </div>
                         <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h3></h3>
+                            <p></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -118,14 +118,27 @@ export default function Home() {
 
                        </div>
                         <Carousel.Caption>
-                            <h3>Third slide label</h3>
+                            <h3></h3>
                             <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                
                             </p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
             </section>
+           
+            <footer className="advertisement">
+                <div className="ad-content">
+                    <img src="https://www.cnet.com/a/img/resize/7dc8e84d3224db5e1638db6cf15719eff37f883e/hub/2016/08/11/10c32ae5-990d-44c0-a73f-f1dc0801885e/logitech-create-02.jpg?auto=webp&fit=crop&height=675&width=1200" alt="Computer Advertisement" className="ad-image"/>
+                    <div className="ad-text">
+                        <h4>Latest Computers</h4>
+                        <p>Check out our latest collection of high-performance computers.</p>
+                    </div>
+                </div>
+            </footer>
+           
+        
+    
 
 
 

@@ -1,0 +1,47 @@
+.advertisement {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #dee2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-content {
+    display: flex;
+    align-items: center;
+}
+
+.ad-image {
+    max-height: 60px;
+    margin-right: 10px;
+}
+
+.ad-text h4 {
+    margin: 0;
+    color: #333;
+}
+
+.ad-text p {
+    margin: 0;
+    color: #666;
+}
+
+
+.section {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+
+.table-img {
+    width: 80px; 
+    height: auto; 
+}
+

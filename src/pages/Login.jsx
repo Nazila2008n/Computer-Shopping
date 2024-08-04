@@ -150,7 +150,15 @@ export default function Login() {
                     </Form>
                 </div>
             </section>
-
+            <footer className="advertisement">
+                <div className="ad-content">
+                    <img src="https://www.cnet.com/a/img/resize/7dc8e84d3224db5e1638db6cf15719eff37f883e/hub/2016/08/11/10c32ae5-990d-44c0-a73f-f1dc0801885e/logitech-create-02.jpg?auto=webp&fit=crop&height=675&width=1200" alt="Computer Advertisement" className="ad-image"/>
+                    <div className="ad-text">
+                        <h4>Latest Computers</h4>
+                        <p>Check out our latest collection of high-performance computers.</p>
+                    </div>
+                </div>
+            </footer>
         </>
     )
 }
